@@ -1,6 +1,6 @@
 # Lab Report 2
 ## Part 1
-* Screenshot 1: ![Image]()
+* Screenshot 1: ![Image](https://github.com/vesalcido/cse-15l-lab-report2/blob/main/tester3.png)
 * The method in my code that is being called would be my handleRequest method, which takes in my message that I want added into the website and returns it the way I want it to look like.
 * The relevant arguments to my handleRequest method would be my url argument, which is taking in the url that we want to reach, and the relevant values of any relevant fields of the class would be my combined variable and my String[ ] input that update continuously depending on each input used.
 * The values of the relevant fields of the class changed from this specific request was by my combined variable combining the phrase I wanted in the url and returning it in the server used.
