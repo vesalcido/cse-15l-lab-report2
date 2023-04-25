@@ -1,5 +1,6 @@
 # Lab Report 2
 ## Part 1
+> Screenshot 1: ![Image](
 
 ## Part 2
 * Failure inducing input for the buggy program
