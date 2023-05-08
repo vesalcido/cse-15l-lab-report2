@@ -17,9 +17,9 @@
 @Test
 public void testReverseInPlace2()
 {
-  int input1[] ={12,9,6,3};
-  ArrayExamples.reverseInPlace(input1);
-  assertArrayEquals(new int[]{3,6,9,12}, input 1);
+    int input1[] ={12,9,6,3};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{3,6,9,12}, input 1);
 }
 ```
 * An input that doesn't induce a failure
@@ -27,9 +27,9 @@ public void testReverseInPlace2()
 @Test
 public void testReverseInPlace2()
 {
-  int input1[]={ 3 };
-  ArrayExamples.reverseInPlace(input1);
-  assertArrayEquals(new int[]{ 3 }, input 1);
+    int input1[]={ 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input 1);
 }
 ```
 * The symptom
