@@ -2,9 +2,9 @@
 ## Part 1
 * Screenshot 1: ![Image](https://github.com/vesalcido/cse-15l-lab-report2/blob/main/Screen%20Shot%202023-05-07%20at%204.53.03%20PM.png)
 * Screenshot 2: ![Image](tester3.png)
-* The method in my code that is being called would be my handleRequest method, which takes in my message that I want added into the website and returns it the way I want it to look like.
-* The relevant arguments to my handleRequest method would be my url argument, which is taking in the url that we want to reach, and the relevant values of any relevant fields of the class would be my combined variable and my String[ ] input that update continuously depending on each input used.
-* The values of the relevant fields of the class changed from this specific request was by my combined variable combining the phrase I wanted in the url and returning it in the server used.
+* The method in my code that is being called would be my ``handleRequest`` method, which takes in my message that I want added into the website and returns it the way I want it to look like.
+* The relevant arguments to my ``handleRequest`` method would be my ``url`` argument, which is taking in the url that we want to reach, and the relevant values of any relevant fields of the class would be my ``combined`` variable and my ``String[ ]`` input that update continuously depending on each input used.
+* The values of the relevant fields of the class changed from this specific request was by my ``combined`` variable combining the phrase I wanted in the url and returning it in the server used.
 
 * Screenshot 2: ![Image](tester4.png)
 * The method in my code that is being called would be my handleRequest method, which takes in my message that I want added into the website and returns it the way I want it to look like.
@@ -17,9 +17,9 @@
 @Test
 public void testReverseInPlace2()
 {
-int input1[] ={12,9,6,3};
-ArrayExamples.reverseInPlace(input1);
-assertArrayEquals(new int[]{3,6,9,12}, input 1);
+  int input1[] ={12,9,6,3};
+  ArrayExamples.reverseInPlace(input1);
+  assertArrayEquals(new int[]{3,6,9,12}, input 1);
 }
 ```
 * An input that doesn't induce a failure
@@ -27,9 +27,9 @@ assertArrayEquals(new int[]{3,6,9,12}, input 1);
 @Test
 public void testReverseInPlace2()
 {
-int input1[]={ 3 };
-ArrayExamples.reverseInPlace(input1);
-assertArrayEquals(new int[]{ 3 }, input 1);
+  int input1[]={ 3 };
+  ArrayExamples.reverseInPlace(input1);
+  assertArrayEquals(new int[]{ 3 }, input 1);
 }
 ```
 * The symptom
@@ -40,20 +40,20 @@ assertArrayEquals(new int[]{ 3 }, input 1);
 ```
 static void reverseInPlace(int[] arr)
 {
-for(int i = 0; i < arr.length; i +=1)
+  for(int i = 0; i < arr.length; i +=1)
 {
-arr[i]= arr[arr.length - i -1 ];
+  arr[i]= arr[arr.length - i -1 ];
 }
 }
 ```
 ```
 static void reverseInPlace(int[] arr)
 {
-for(int i = 0; i < arr.length/2; i+=1)
+  for(int i = 0; i < arr.length/2; i+=1)
 {
-int temp = arr[i];
-arr[i]= arr[arr.length - i -1 ];
-arr[arr.length - i - 1] = temp;
+  int temp = arr[i];
+  arr[i]= arr[arr.length - i -1 ];
+  arr[arr.length - i - 1] = temp;
 }
 }
 ```
